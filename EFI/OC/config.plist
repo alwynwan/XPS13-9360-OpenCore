@@ -223,10 +223,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -241,10 +241,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -259,10 +259,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -277,10 +277,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -295,10 +295,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -313,10 +313,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -331,10 +331,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -349,10 +349,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -367,10 +367,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -385,28 +385,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CtlnaAHCIPort</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>CtlnaAHCIPort.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -421,10 +403,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -439,10 +421,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -457,10 +439,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -475,10 +457,10 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -493,10 +475,82 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooGPIO</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooI2CServices</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooInput</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooInput</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooInput.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
@@ -505,6 +559,42 @@
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooI2C</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooI2C.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooI2CHID</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooI2CHID.kext</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -941,7 +1031,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Arguments</key>
-				<string>-b -n DSDT -z</string>
+				<string></string>
 				<key>Path</key>
 				<string>acpidump.efi</string>
 				<key>Auxiliary</key>
@@ -1129,7 +1219,9 @@
 		<key>Drivers</key>
 		<array>
 			<string>HfsPlus.efi</string>
+			<string>OpenPartitionDxe.efi</string>
 			<string>OpenRuntime.efi</string>
+			<string>OpenUsbKbDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
