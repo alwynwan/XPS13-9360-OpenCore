@@ -8,17 +8,33 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC-USBX-LAPTOP.aml</string>
+				<string>SSDT-EC.aml</string>
 				<key>Path</key>
-				<string>SSDT-EC-USBX-LAPTOP.aml</string>
+				<string>SSDT-EC.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG-DRTNIA.aml</string>
+				<string>SSDT-HPET.aml</string>
 				<key>Path</key>
-				<string>SSDT-PLUG-DRTNIA.aml</string>
+				<string>SSDT-HPET.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PLUG.aml</string>
+				<key>Path</key>
+				<string>SSDT-PLUG.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PMC.aml</string>
+				<key>Path</key>
+				<string>SSDT-PMC.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -27,6 +43,14 @@
 				<string>SSDT-PNLF.aml</string>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-USB-Reset.aml</string>
+				<key>Path</key>
+				<string>SSDT-USB-Reset.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -75,20 +99,20 @@
 			<dict>
 				<key>Comment</key>
 				<string>Change _OSI to XOSI</string>
-				<key>Enabled</key>
-				<true/>
 				<key>Count</key>
 				<integer>0</integer>
-				<key>Limit</key>
-				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
 				<key>Find</key>
 				<data>X09TSQ==</data>
-				<key>Replace</key>
-				<data>WE9TSQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>OemTableId</key>
 				<data></data>
+				<key>Replace</key>
+				<data>WE9TSQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -110,7 +134,7 @@
 			<key>ResetHwSig</key>
 			<false/>
 			<key>ResetLogoStatus</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -205,10 +229,16 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>layout-id</key>
+				<key>AAPL,ig-platform-id</key>
+				<data>AAAbWQ==</data>
+				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -266,60 +296,6 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportBrcmFixup</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
 				<key>Arch</key>
 				<string>Any</string>
@@ -342,7 +318,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>BrcmBluetoothInjector.kext</string>
+				<string>AppleMCEReporterDisabler.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -356,11 +332,11 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrcmFirmwareData</string>
+				<string></string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>BrcmFirmwareData.kext</string>
+				<string>SATA-unsupported.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -374,47 +350,11 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrcmPatchRAM3</string>
+				<string>Contents/MacOS/SMCDellSensors</string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>BrcmPatchRAM3.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CtlnaAHCIPort</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>CtlnaAHCIPort.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RealtekRTL8111</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>RealtekRTL8111.kext</string>
+				<string>SMCDellSensors.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -433,6 +373,24 @@
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCSuperIO</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCSuperIO.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -613,6 +571,24 @@
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>XHCI-unsupported.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1075,11 +1051,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>acpidump.efi</string>
+				<string>OpenShell.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>Name</key>
-				<string>acpidump.efi</string>
+				<string>OpenShell.efi</string>
 				<key>TextMode</key>
 				<false/>
 				<key>Enabled</key>
@@ -1087,17 +1063,17 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Path</key>
-				<string>acpidump.efi</string>
+				<string>OpenShell.efi</string>
 				<key>Auxiliary</key>
 				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>OpenShell.efi</string>
+				<string>VerifyMsrE2.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>Name</key>
-				<string>OpenShell.efi</string>
+				<string>VerifyMsrE2.efi</string>
 				<key>TextMode</key>
 				<false/>
 				<key>Enabled</key>
@@ -1105,7 +1081,7 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Path</key>
-				<string>OpenShell.efi</string>
+				<string>VerifyMsrE2.efi</string>
 				<key>Auxiliary</key>
 				<true/>
 			</dict>
@@ -1132,11 +1108,11 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=28</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=56</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data></data>
+				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -1205,11 +1181,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02733200GUHRPC1M</string>
+			<string>C02717207J9HRPC1H</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>ESIzAAAA</data>
+			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1217,9 +1193,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02V7CYPHV2N</string>
+			<string>C02TMMYUHV2N</string>
 			<key>SystemUUID</key>
-			<string>8CD2BEC7-5175-4E36-B070-F8F6861BA523</string>
+			<string>BAF8D541-A403-4644-B8AA-C4352D06C8A0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1273,6 +1249,8 @@
 		<key>Drivers</key>
 		<array>
 			<string>HfsPlus.efi</string>
+			<string>OpenCanopy.efi</string>
+			<string>OpenHfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
 		</array>
 		<key>Input</key>
